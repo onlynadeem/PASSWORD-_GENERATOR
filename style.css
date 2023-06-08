@@ -1,0 +1,86 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito+Sans:wght@600&display=swap');
+  
+  
+  h1{
+    display: flex;
+    justify-content: center;
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: #F96167;
+    color: white;
+    padding: 35px;
+    margin-top: 0;
+  }
+  
+  .container{
+    display: flex;
+    border-radius: 12px;
+    justify-content: center;
+    background-color: #F96167;
+    padding: 5px 38vh;
+  margin: 0 20vw;
+  }
+  
+  .button{
+    display: flex;
+    margin: 40px;
+    font-family: 'Nunito Sans', sans-serif;
+    color:#F96167;
+    transition-duration: 1s;
+    padding: 15px 32px;
+    border: 3px solid white;
+    border-radius: 12px;
+    font-weight:bold;
+  }
+  
+  .button:hover{
+    background-color:#F96167;
+    color:white;
+  }
+  
+  .result{
+      display: flex;
+    justify-content: center;
+    border-radius: 12px;
+    background-color: #F96167;
+    padding:10vh 38vh;
+    margin: 10px 20vw;
+  }
+  
+  #result{
+    background-color: #F96167;
+    color: white;
+    padding: 5vh 15vw;
+    border: 4px solid white;
+    border-radius: 20px;
+    font-family: 'Nunito Sans', sans-serif;
+     font-weight:bold;
+    font-size: 20px;
+    
+  }
+  
+  .btn{
+      display: block;
+    margin: 10px;
+    font-family: 'Nunito Sans', sans-serif;
+    color:#F96167;
+    transition-duration: 1s;
+    padding: 10px;
+    border: 3px solid white;
+    border-radius: 12px;
+    font-weight:bold;
+    position: absolute;
+    top: 292px;
+    right: 305px;
+  }
+  
+  
+  .btn:hover{
+    background-color:#F96167;
+    color:white;
+  }
+  
